@@ -2570,7 +2570,7 @@ footer .copyright span:last-child::after {
  */
 #go-top {
 	position: fixed;
-	bottom: 30px;	/* todo: need to be 0 when 'Powered by 000webhost' doesn't show */
+	bottom: 0;
 	right: 0;
 	z-index: 600;
 	display: none;
