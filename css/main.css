@@ -1380,8 +1380,8 @@ header .logo a {
 .intro-content .button {
 	color: #FFFFFF !important;
 	border-color: rgba(255, 255, 255, 0.3);
-	height: 6rem !important;
-	line-height: 5.4rem !important;
+	height: 5rem !important;
+	line-height: 4.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
 	font-size: 1.3rem;
@@ -2570,7 +2570,7 @@ footer .copyright span:last-child::after {
  */
 #go-top {
 	position: fixed;
-	bottom: 0;
+	bottom: 30px;	/* todo: need to be 0 when 'Powered by 000webhost' doesn't show */
 	right: 0;
 	z-index: 600;
 	display: none;
@@ -2579,9 +2579,9 @@ footer .copyright span:last-child::after {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	height: 6.6rem;
+	height: 6rem;
 	width: 6rem;
-	line-height: 6.6rem;
+	line-height: 6rem;
 	text-align: center;
 	background: #cc005f;
 	color: #FFFFFF;
