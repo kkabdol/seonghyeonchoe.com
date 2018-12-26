@@ -1921,7 +1921,13 @@ header .logo a {
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.4rem;
-	line-height: 2.4rem;
+	line-height: 2.0rem;
+	margin-bottom: 12px;
+}
+.popup-modal .description-box li {
+	font-family: "lora-regular", sans-serif;
+	font-size: 1.6rem;
+	line-height: 2rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
